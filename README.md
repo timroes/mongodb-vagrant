@@ -15,8 +15,12 @@ How to use
  * Type `vagrant up` in the directory .. and wait some minutes.
  * Type `./mongo ` to enter the MongoDB shell.
 
-Also the MongoDB inside the vagrant VM will now listen to your localhost:27017,
-so you can use any other preferred tool to access it (beside the provided mongo shell).
+The MongoDB inside the vagrant VM will now listen to `localhost:27017`,
+so you can use any other preferred tool to access it (beside the provided 
+mongo shell), e.g. give [Robomongo](http://robomongo.org/) a try.
 
-If you want to have access to other MongoDB executables hit `vagrant ssh` to access the
+If you want to have access to other MongoDB executables enter `vagrant ssh` to access the
 shell of the VM.
+
+When you finished you can destroy the VM with `vagrant destroy` and start over again
+with `vagrant up`.
